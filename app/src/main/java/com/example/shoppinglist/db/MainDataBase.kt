@@ -23,6 +23,7 @@ abstract fun getDao():Dao
                     MainDataBase::class.java,
                     "shopping_list_db"
                 ).build()
+                INSTANCE = instance
                 instance
             }
         }
